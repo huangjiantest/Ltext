@@ -1,0 +1,14 @@
+[2016-05-11 09:43:43.835] [ERROR] logInfo - Error: connect ECONNREFUSED
+    at errnoException (net.js:901:11)
+    at Object.afterConnect [as oncomplete] (net.js:892:19)
+    --------------------
+    at Protocol._enqueue (D:\lys\xiangmu\node_modules\mysql\lib\protocol\Protocol.js:141:48)
+    at Protocol.handshake (D:\lys\xiangmu\node_modules\mysql\lib\protocol\Protocol.js:52:41)
+    at PoolConnection.connect (D:\lys\xiangmu\node_modules\mysql\lib\Connection.js:123:18)
+    at Pool.getConnection (D:\lys\xiangmu\node_modules\mysql\lib\Pool.js:45:23)
+    at dataSource.getConn (D:\lys\xiangmu\module\dataSource.js:13:12)
+    at loginControl.login (D:\lys\xiangmu\control\loginControl.js:6:13)
+    at Layer.handle [as handle_request] (D:\lys\xiangmu\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\lys\xiangmu\node_modules\express\lib\router\route.js:131:13)
+    at Route.dispatch (D:\lys\xiangmu\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (D:\lys\xiangmu\node_modules\express\lib\router\layer.js:95:5)

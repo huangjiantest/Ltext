@@ -1,0 +1,509 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   '--save',
+1 verbose cli   'multer' ]
+2 info using npm@1.3.5
+3 info using node@v0.10.15
+4 verbose node symlink C:\Program Files\nodejs\\node.exe
+5 warn package.json xiangmu@1.0.0 No description
+6 warn package.json xiangmu@1.0.0 No repository field.
+7 warn package.json xiangmu@1.0.0 No README data
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'multer', null ]
+10 verbose cache add name=undefined spec="multer" args=["multer",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'multer',
+11 verbose parsed url   path: 'multer',
+11 verbose parsed url   href: 'multer' }
+12 silly lockFile f75d3261-multer multer
+13 verbose lock multer C:\Documents and Settings\Administrator\Application Data\npm-cache\f75d3261-multer.lock
+14 silly lockFile f75d3261-multer multer
+15 silly lockFile f75d3261-multer multer
+16 verbose addNamed [ 'multer', '' ]
+17 verbose addNamed [ null, '*' ]
+18 silly lockFile 12cfa37d-multer multer@
+19 verbose lock multer@ C:\Documents and Settings\Administrator\Application Data\npm-cache\12cfa37d-multer.lock
+20 silly addNameRange { name: 'multer', range: '*', hasData: false }
+21 verbose url raw multer
+22 verbose url resolving [ 'https://registry.npmjs.org/', './multer' ]
+23 verbose url resolved https://registry.npmjs.org/multer
+24 info trying registry request attempt 1 at 11:07:54
+25 verbose etag "6I9K3E2WSXTP2XHXIEUOIFA3U"
+26 http GET https://registry.npmjs.org/multer
+27 http 304 https://registry.npmjs.org/multer
+28 silly registry.get cb [ 304,
+28 silly registry.get   { date: 'Fri, 13 May 2016 03:08:00 GMT',
+28 silly registry.get     via: '1.1 varnish',
+28 silly registry.get     'cache-control': 'max-age=300',
+28 silly registry.get     etag: '"6I9K3E2WSXTP2XHXIEUOIFA3U"',
+28 silly registry.get     age: '167',
+28 silly registry.get     connection: 'keep-alive',
+28 silly registry.get     'x-served-by': 'cache-atl6248-ATL',
+28 silly registry.get     'x-cache': 'HIT',
+28 silly registry.get     'x-cache-hits': '1',
+28 silly registry.get     'x-timer': 'S1463108880.745725,VS0,VE0',
+28 silly registry.get     vary: 'Accept-Encoding' } ]
+29 verbose etag multer from cache
+30 silly addNameRange number 2 { name: 'multer', range: '*', hasData: true }
+31 silly addNameRange versions [ 'multer',
+31 silly addNameRange   [ '0.0.1',
+31 silly addNameRange     '0.0.2',
+31 silly addNameRange     '0.0.3',
+31 silly addNameRange     '0.0.4',
+31 silly addNameRange     '0.0.5',
+31 silly addNameRange     '0.0.6',
+31 silly addNameRange     '0.0.7',
+31 silly addNameRange     '0.1.0',
+31 silly addNameRange     '0.1.1',
+31 silly addNameRange     '0.1.2',
+31 silly addNameRange     '0.1.3',
+31 silly addNameRange     '0.1.4',
+31 silly addNameRange     '0.1.6',
+31 silly addNameRange     '0.1.7',
+31 silly addNameRange     '0.1.8',
+31 silly addNameRange     '1.0.0',
+31 silly addNameRange     '1.0.1',
+31 silly addNameRange     '1.0.2',
+31 silly addNameRange     '1.0.3',
+31 silly addNameRange     '1.0.4',
+31 silly addNameRange     '1.0.5',
+31 silly addNameRange     '1.0.6',
+31 silly addNameRange     '1.1.0' ] ]
+32 verbose addNamed [ 'multer', '1.1.0' ]
+33 verbose addNamed [ '1.1.0', '1.1.0' ]
+34 silly lockFile 06aca17f-multer-1-1-0 multer@1.1.0
+35 verbose lock multer@1.1.0 C:\Documents and Settings\Administrator\Application Data\npm-cache\06aca17f-multer-1-1-0.lock
+36 silly lockFile 06aca17f-multer-1-1-0 multer@1.1.0
+37 silly lockFile 06aca17f-multer-1-1-0 multer@1.1.0
+38 silly lockFile 12cfa37d-multer multer@
+39 silly lockFile 12cfa37d-multer multer@
+40 silly resolved [ { name: 'multer',
+40 silly resolved     description: 'Middleware for handling `multipart/form-data`.',
+40 silly resolved     version: '1.1.0',
+40 silly resolved     contributors: [ [Object], [Object], [Object] ],
+40 silly resolved     license: 'MIT',
+40 silly resolved     repository: { type: 'git', url: 'expressjs/multer' },
+40 silly resolved     keywords:
+40 silly resolved      [ 'form',
+40 silly resolved        'post',
+40 silly resolved        'multipart',
+40 silly resolved        'form-data',
+40 silly resolved        'formdata',
+40 silly resolved        'express',
+40 silly resolved        'middleware' ],
+40 silly resolved     dependencies:
+40 silly resolved      { 'append-field': '^0.1.0',
+40 silly resolved        busboy: '^0.2.11',
+40 silly resolved        'concat-stream': '^1.5.0',
+40 silly resolved        mkdirp: '^0.5.1',
+40 silly resolved        'object-assign': '^3.0.0',
+40 silly resolved        'on-finished': '^2.3.0',
+40 silly resolved        'type-is': '^1.6.4',
+40 silly resolved        xtend: '^4.0.0' },
+40 silly resolved     devDependencies:
+40 silly resolved      { express: '^4.13.1',
+40 silly resolved        'form-data': '^1.0.0-rc1',
+40 silly resolved        'fs-temp': '^0.1.2',
+40 silly resolved        mocha: '^2.2.5',
+40 silly resolved        rimraf: '^2.4.1',
+40 silly resolved        standard: '^4.5.4',
+40 silly resolved        'testdata-w3c-json-form': '^0.2.0' },
+40 silly resolved     engines: { node: '>= 0.10.0' },
+40 silly resolved     files: [ 'LICENSE', 'index.js', 'storage/', 'lib/' ],
+40 silly resolved     scripts: { test: 'standard && mocha' },
+40 silly resolved     readme: '# Multer [![Build Status](https://travis-ci.org/expressjs/multer.svg?branch=master)](https://travis-ci.org/expressjs/multer) [![NPM version](https://badge.fury.io/js/multer.svg)](https://badge.fury.io/js/multer) [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)\n\nMulter is a node.js middleware for handling `multipart/form-data`, which is primarily used for uploading files. It is written\non top of [busboy](https://github.com/mscdex/busboy) for maximum efficiency.\n\n**NOTE**: Multer will not process any form which is not multipart (`multipart/form-data`).\n\n## Installation\n\n```sh\n$ npm install --save multer\n```\n\n## Usage\n\nMulter adds a `body` object and a `file` or `files` object to the `request` object. The `body` object contains the values of the text fields of the form, the `file` or `files` object contains the files uploaded via the form.\n\nBasic usage example:\n\n```javascript\nvar express = require(\'express\')\nvar multer  = require(\'multer\')\nvar upload = multer({ dest: \'uploads/\' })\n\nvar app = express()\n\napp.post(\'/profile\', upload.single(\'avatar\'), function (req, res, next) {\n  // req.file is the `avatar` file\n  // req.body will hold the text fields, if there were any\n})\n\napp.post(\'/photos/upload\', upload.array(\'photos\', 12), function (req, res, next) {\n  // req.files is array of `photos` files\n  // req.body will contain the text fields, if there were any\n})\n\nvar cpUpload = upload.fields([{ name: \'avatar\', maxCount: 1 }, { name: \'gallery\', maxCount: 8 }])\napp.post(\'/cool-profile\', cpUpload, function (req, res, next) {\n  // req.files is an object (String -> Array) where fieldname is the key, and the value is array of files\n  //\n  // e.g.\n  //  req.files[\'avatar\'][0] -> File\n  //  req.files[\'gallery\'] -> Array\n  //\n  // req.body will contain the text fields, if there were any\n})\n```\n\nIn case you need to handle a text-only multipart form, you can use any of the multer methods (`.single()`, `.array()`, `fields()`). Here is an example using `.array()`:\n\n```javascript\nvar express = require(\'express\')\nvar app = express()\nvar multer  = require(\'multer\')\nvar upload = multer()\n\napp.post(\'/profile\', upload.array(), function (req, res, next) {\n  // req.body contains the text fields\n})\n```\n\n## API\n\n### File information\n\nEach file contains the following information:\n\nKey | Description | Note\n--- | --- | ---\n`fieldname` | Field name specified in the form |\n`originalname` | Name of the file on the user\'s computer |\n`encoding` | Encoding type of the file |\n`mimetype` | Mime type of the file |\n`size` | Size of the file in bytes |\n`destination` | The folder to which the file has been saved | `DiskStorage`\n`filename` | The name of the file within the `destination` | `DiskStorage`\n`path` | The full path to the uploaded file | `DiskStorage`\n`buffer` | A `Buffer` of the entire file | `MemoryStorage`\n\n### `multer(opts)`\n\nMulter accepts an options object, the most basic of which is the `dest`\nproperty, which tells Multer where to upload the files. In case you omit the\noptions object, the files will be kept in memory and never written to disk.\n\nBy default, Multer will rename the files so as to avoid naming conflicts. The\nrenaming function can be customized according to your needs.\n\nThe following are the options that can be passed to Multer.\n\nKey | Description\n--- | ---\n`dest` or `storage` | Where to store the files\n`fileFilter` | Function to control which files are accepted\n`limits` | Limits of the uploaded data\n\nIn an average web app, only `dest` might be required, and configured as shown in\nthe following example.\n\n```javascript\nvar upload = multer({ dest: \'uploads/\' })\n```\n\nIf you want more control over your uploads, you\'ll want to use the `storage`\noption instead of `dest`. Multer ships with storage engines `DiskStorage`\nand `MemoryStorage`; More engines are available from third parties.\n\n#### `.single(fieldname)`\n\nAccept a single file with the name `fieldname`. The single file will be stored\nin `req.file`.\n\n#### `.array(fieldname[, maxCount])`\n\nAccept an array of files, all with the name `fieldname`. Optionally error out if\nmore than `maxCount` files are uploaded. The array of files will be stored in\n`req.files`.\n\n#### `.fields(fields)`\n\nAccept a mix of files, specified by `fields`. An object with arrays of files\nwill be stored in `req.files`.\n\n`fields` should be an array of objects with `name` and optionally a `maxCount`.\nExample:\n\n```javascript\n[\n  { name: \'avatar\', maxCount: 1 },\n  { name: \'gallery\', maxCount: 8 }\n]\n```\n\n#### `.any()`\n\nAccepts all files that comes over the wire. An array of files will be stored in\n`req.files`.\n\n**WARNING:** Make sure that you always handle the files that a user uploads.\nNever add multer as a global middleware since a malicious user could upload\nfiles to a route that you didn\'t anticipate. Only use this function on routes\nwhere you are handling the uploaded files.\n\n### `storage`\n\n#### `DiskStorage`\n\nThe disk storage engine gives you full control on storing files to disk.\n\n```javascript\nvar storage = multer.diskStorage({\n  destination: function (req, file, cb) {\n    cb(null, \'/tmp/my-uploads\')\n  },\n  filename: function (req, file, cb) {\n    cb(null, file.fieldname + \'-\' + Date.now())\n  }\n})\n\nvar upload = multer({ storage: storage })\n```\n\nThere are two options available, `destination` and `filename`. They are both\nfunctions that determine where the file should be stored.\n\n`destination` is used to determine within which folder the uploaded files should\nbe stored. This can also be given as a `string` (e.g. `\'/tmp/uploads\'`). If no\n`destination` is given, the operating system\'s default directory for temporary\nfiles is used.\n\n**Note:** You are responsible for creating the directory when providing\n`destination` as a function. When passing a string, multer will make sure that\nthe directory is created for you.\n\n`filename` is used to determine what the file should be named inside the folder.\nIf no `filename` is given, each file will be given a random name that doesn\'t\ninclude any file extension.\n\n**Note:** Multer will not append any file extension for you, your function\nshould return a filename complete with an file extension.\n\nEach function gets passed both the request (`req`) and some information about\nthe file (`file`) to aid with the decision.\n\nNote that `req.body` might not have been fully populated yet. It depends on the\norder that the client transmits fields and files to the server.\n\n#### `MemoryStorage`\n\nThe memory storage engine stores the files in memory as `Buffer` objects. It\ndoesn\'t have any options.\n\n```javascript\nvar storage = multer.memoryStorage()\nvar upload = multer({ storage: storage })\n```\n\nWhen using memory storage, the file info will contain a field called\n`buffer` that contains the entire file.\n\n**WARNING**: Uploading very large files, or relatively small files in large\nnumbers very quickly, can cause your application to run out of memory when\nmemory storage is used.\n\n### `limits`\n\nAn object specifying the size limits of the following optional properties. Multer passes this object into busboy directly, and the details of the properties can be found on [busboy\'s page](https://github.com/mscdex/busboy#busboy-methods).\n\nThe following integer values are available:\n\nKey | Description | Default\n--- | --- | ---\n`fieldNameSize` | Max field name size | 100 bytes\n`fieldSize` | Max field value size | 1MB\n`fields` | Max number of non-file fields | Infinity\n`fileSize` | For multipart forms, the max file size (in bytes) | Infinity\n`files` | For multipart forms, the max number of file fields | Infinity\n`parts` | For multipart forms, the max number of parts (fields + files) | Infinity\n`headerPairs` | For multipart forms, the max number of header key=>value pairs to parse | 2000\n\nSpecifying the limits can help protect your site against denial of service (DoS) attacks.\n\n### `fileFilter`\n\nSet this to a function to control which files should be uploaded and which\nshould be skipped. The function should look like this:\n\n```javascript\nfunction fileFilter (req, file, cb) {\n\n  // The function should call `cb` with a boolean\n  // to indicate if the file should be accepted\n\n  // To reject this file pass `false`, like so:\n  cb(null, false)\n\n  // To accept the file pass `true`, like so:\n  cb(null, true)\n\n  // You can always pass an error if something goes wrong:\n  cb(new Error(\'I don\\\'t have a clue!\'))\n\n}\n```\n\n## Error handling\n\nWhen encountering an error, multer will delegate the error to express. You can\ndisplay a nice error page using [the standard express way](http://expressjs.com/guide/error-handling.html).\n\nIf you want to catch errors specifically from multer, you can call the\nmiddleware function by yourself.\n\n```javascript\nvar upload = multer().single(\'avatar\')\n\napp.post(\'/profile\', function (req, res) {\n  upload(req, res, function (err) {\n    if (err) {\n      // An error occurred when uploading\n      return\n    }\n\n    // Everything went fine\n  })\n})\n```\n\n## Custom storage engine\n\nSee [the documentation here](/StorageEngine.md) if you want to build your own\nstorage engine.\n\n## License\n\n[MIT](LICENSE)\n',
+40 silly resolved     readmeFilename: 'README.md',
+40 silly resolved     _id: 'multer@1.1.0',
+40 silly resolved     _from: 'multer@' } ]
+41 info install multer@1.1.0 into D:\lys\xiangmu
+42 info installOne multer@1.1.0
+43 info D:\lys\xiangmu\node_modules\multer unbuild
+44 verbose tar unpack C:\Documents and Settings\Administrator\Application Data\npm-cache\multer\1.1.0\package.tgz
+45 silly lockFile f14abe89--lys-xiangmu-node-modules-multer tar://D:\lys\xiangmu\node_modules\multer
+46 verbose lock tar://D:\lys\xiangmu\node_modules\multer C:\Documents and Settings\Administrator\Application Data\npm-cache\f14abe89--lys-xiangmu-node-modules-multer.lock
+47 silly lockFile 9f83bd72-m-cache-multer-1-1-0-package-tgz tar://C:\Documents and Settings\Administrator\Application Data\npm-cache\multer\1.1.0\package.tgz
+48 verbose lock tar://C:\Documents and Settings\Administrator\Application Data\npm-cache\multer\1.1.0\package.tgz C:\Documents and Settings\Administrator\Application Data\npm-cache\9f83bd72-m-cache-multer-1-1-0-package-tgz.lock
+49 silly gunzTarPerm modes [ '755', '644' ]
+50 silly gunzTarPerm extractEntry package.json
+51 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+52 silly gunzTarPerm extractEntry README.md
+53 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+54 silly gunzTarPerm extractEntry LICENSE
+55 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+56 silly gunzTarPerm extractEntry index.js
+57 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+58 silly gunzTarPerm extractEntry lib/counter.js
+59 silly gunzTarPerm modified mode [ 'lib/counter.js', 438, 420 ]
+60 silly gunzTarPerm extractEntry lib/file-appender.js
+61 silly gunzTarPerm modified mode [ 'lib/file-appender.js', 438, 420 ]
+62 silly gunzTarPerm extractEntry lib/make-error.js
+63 silly gunzTarPerm modified mode [ 'lib/make-error.js', 438, 420 ]
+64 silly gunzTarPerm extractEntry lib/make-middleware.js
+65 silly gunzTarPerm modified mode [ 'lib/make-middleware.js', 438, 420 ]
+66 silly gunzTarPerm extractEntry lib/remove-uploaded-files.js
+67 silly gunzTarPerm modified mode [ 'lib/remove-uploaded-files.js', 438, 420 ]
+68 silly gunzTarPerm extractEntry storage/disk.js
+69 silly gunzTarPerm modified mode [ 'storage/disk.js', 438, 420 ]
+70 silly gunzTarPerm extractEntry storage/memory.js
+71 silly gunzTarPerm modified mode [ 'storage/memory.js', 438, 420 ]
+72 silly lockFile f14abe89--lys-xiangmu-node-modules-multer tar://D:\lys\xiangmu\node_modules\multer
+73 silly lockFile f14abe89--lys-xiangmu-node-modules-multer tar://D:\lys\xiangmu\node_modules\multer
+74 silly lockFile 9f83bd72-m-cache-multer-1-1-0-package-tgz tar://C:\Documents and Settings\Administrator\Application Data\npm-cache\multer\1.1.0\package.tgz
+75 silly lockFile 9f83bd72-m-cache-multer-1-1-0-package-tgz tar://C:\Documents and Settings\Administrator\Application Data\npm-cache\multer\1.1.0\package.tgz
+76 info preinstall multer@1.1.0
+77 verbose readDependencies using package.json deps
+78 verbose readDependencies using package.json deps
+79 verbose cache add [ 'append-field@^0.1.0', null ]
+80 verbose cache add name=undefined spec="append-field@^0.1.0" args=["append-field@^0.1.0",null]
+81 verbose parsed url { protocol: null,
+81 verbose parsed url   slashes: null,
+81 verbose parsed url   auth: null,
+81 verbose parsed url   host: null,
+81 verbose parsed url   port: null,
+81 verbose parsed url   hostname: null,
+81 verbose parsed url   hash: null,
+81 verbose parsed url   search: null,
+81 verbose parsed url   query: null,
+81 verbose parsed url   pathname: 'append-field@^0.1.0',
+81 verbose parsed url   path: 'append-field@^0.1.0',
+81 verbose parsed url   href: 'append-field@^0.1.0' }
+82 verbose cache add name="append-field" spec="^0.1.0" args=["append-field","^0.1.0"]
+83 verbose parsed url { protocol: null,
+83 verbose parsed url   slashes: null,
+83 verbose parsed url   auth: null,
+83 verbose parsed url   host: null,
+83 verbose parsed url   port: null,
+83 verbose parsed url   hostname: null,
+83 verbose parsed url   hash: null,
+83 verbose parsed url   search: null,
+83 verbose parsed url   query: null,
+83 verbose parsed url   pathname: '^0.1.0',
+83 verbose parsed url   path: '^0.1.0',
+83 verbose parsed url   href: '^0.1.0' }
+84 verbose addNamed [ 'append-field', '^0.1.0' ]
+85 verbose addNamed [ null, null ]
+86 silly lockFile 583c7635-append-field-0-1-0 append-field@^0.1.0
+87 verbose lock append-field@^0.1.0 C:\Documents and Settings\Administrator\Application Data\npm-cache\583c7635-append-field-0-1-0.lock
+88 verbose cache add [ 'busboy@^0.2.11', null ]
+89 verbose cache add name=undefined spec="busboy@^0.2.11" args=["busboy@^0.2.11",null]
+90 verbose parsed url { protocol: null,
+90 verbose parsed url   slashes: null,
+90 verbose parsed url   auth: null,
+90 verbose parsed url   host: null,
+90 verbose parsed url   port: null,
+90 verbose parsed url   hostname: null,
+90 verbose parsed url   hash: null,
+90 verbose parsed url   search: null,
+90 verbose parsed url   query: null,
+90 verbose parsed url   pathname: 'busboy@^0.2.11',
+90 verbose parsed url   path: 'busboy@^0.2.11',
+90 verbose parsed url   href: 'busboy@^0.2.11' }
+91 verbose cache add name="busboy" spec="^0.2.11" args=["busboy","^0.2.11"]
+92 verbose parsed url { protocol: null,
+92 verbose parsed url   slashes: null,
+92 verbose parsed url   auth: null,
+92 verbose parsed url   host: null,
+92 verbose parsed url   port: null,
+92 verbose parsed url   hostname: null,
+92 verbose parsed url   hash: null,
+92 verbose parsed url   search: null,
+92 verbose parsed url   query: null,
+92 verbose parsed url   pathname: '^0.2.11',
+92 verbose parsed url   path: '^0.2.11',
+92 verbose parsed url   href: '^0.2.11' }
+93 verbose addNamed [ 'busboy', '^0.2.11' ]
+94 verbose addNamed [ null, null ]
+95 silly lockFile e14b8632-busboy-0-2-11 busboy@^0.2.11
+96 verbose lock busboy@^0.2.11 C:\Documents and Settings\Administrator\Application Data\npm-cache\e14b8632-busboy-0-2-11.lock
+97 verbose cache add [ 'concat-stream@^1.5.0', null ]
+98 verbose cache add name=undefined spec="concat-stream@^1.5.0" args=["concat-stream@^1.5.0",null]
+99 verbose parsed url { protocol: null,
+99 verbose parsed url   slashes: null,
+99 verbose parsed url   auth: null,
+99 verbose parsed url   host: null,
+99 verbose parsed url   port: null,
+99 verbose parsed url   hostname: null,
+99 verbose parsed url   hash: null,
+99 verbose parsed url   search: null,
+99 verbose parsed url   query: null,
+99 verbose parsed url   pathname: 'concat-stream@^1.5.0',
+99 verbose parsed url   path: 'concat-stream@^1.5.0',
+99 verbose parsed url   href: 'concat-stream@^1.5.0' }
+100 verbose cache add name="concat-stream" spec="^1.5.0" args=["concat-stream","^1.5.0"]
+101 verbose parsed url { protocol: null,
+101 verbose parsed url   slashes: null,
+101 verbose parsed url   auth: null,
+101 verbose parsed url   host: null,
+101 verbose parsed url   port: null,
+101 verbose parsed url   hostname: null,
+101 verbose parsed url   hash: null,
+101 verbose parsed url   search: null,
+101 verbose parsed url   query: null,
+101 verbose parsed url   pathname: '^1.5.0',
+101 verbose parsed url   path: '^1.5.0',
+101 verbose parsed url   href: '^1.5.0' }
+102 verbose addNamed [ 'concat-stream', '^1.5.0' ]
+103 verbose addNamed [ null, null ]
+104 silly lockFile 03e20a45-concat-stream-1-5-0 concat-stream@^1.5.0
+105 verbose lock concat-stream@^1.5.0 C:\Documents and Settings\Administrator\Application Data\npm-cache\03e20a45-concat-stream-1-5-0.lock
+106 verbose cache add [ 'mkdirp@^0.5.1', null ]
+107 verbose cache add name=undefined spec="mkdirp@^0.5.1" args=["mkdirp@^0.5.1",null]
+108 verbose parsed url { protocol: null,
+108 verbose parsed url   slashes: null,
+108 verbose parsed url   auth: null,
+108 verbose parsed url   host: null,
+108 verbose parsed url   port: null,
+108 verbose parsed url   hostname: null,
+108 verbose parsed url   hash: null,
+108 verbose parsed url   search: null,
+108 verbose parsed url   query: null,
+108 verbose parsed url   pathname: 'mkdirp@^0.5.1',
+108 verbose parsed url   path: 'mkdirp@^0.5.1',
+108 verbose parsed url   href: 'mkdirp@^0.5.1' }
+109 verbose cache add name="mkdirp" spec="^0.5.1" args=["mkdirp","^0.5.1"]
+110 verbose parsed url { protocol: null,
+110 verbose parsed url   slashes: null,
+110 verbose parsed url   auth: null,
+110 verbose parsed url   host: null,
+110 verbose parsed url   port: null,
+110 verbose parsed url   hostname: null,
+110 verbose parsed url   hash: null,
+110 verbose parsed url   search: null,
+110 verbose parsed url   query: null,
+110 verbose parsed url   pathname: '^0.5.1',
+110 verbose parsed url   path: '^0.5.1',
+110 verbose parsed url   href: '^0.5.1' }
+111 verbose addNamed [ 'mkdirp', '^0.5.1' ]
+112 verbose addNamed [ null, null ]
+113 silly lockFile 4515eb10-mkdirp-0-5-1 mkdirp@^0.5.1
+114 verbose lock mkdirp@^0.5.1 C:\Documents and Settings\Administrator\Application Data\npm-cache\4515eb10-mkdirp-0-5-1.lock
+115 verbose cache add [ 'object-assign@^3.0.0', null ]
+116 verbose cache add name=undefined spec="object-assign@^3.0.0" args=["object-assign@^3.0.0",null]
+117 verbose parsed url { protocol: null,
+117 verbose parsed url   slashes: null,
+117 verbose parsed url   auth: null,
+117 verbose parsed url   host: null,
+117 verbose parsed url   port: null,
+117 verbose parsed url   hostname: null,
+117 verbose parsed url   hash: null,
+117 verbose parsed url   search: null,
+117 verbose parsed url   query: null,
+117 verbose parsed url   pathname: 'object-assign@^3.0.0',
+117 verbose parsed url   path: 'object-assign@^3.0.0',
+117 verbose parsed url   href: 'object-assign@^3.0.0' }
+118 verbose cache add name="object-assign" spec="^3.0.0" args=["object-assign","^3.0.0"]
+119 verbose parsed url { protocol: null,
+119 verbose parsed url   slashes: null,
+119 verbose parsed url   auth: null,
+119 verbose parsed url   host: null,
+119 verbose parsed url   port: null,
+119 verbose parsed url   hostname: null,
+119 verbose parsed url   hash: null,
+119 verbose parsed url   search: null,
+119 verbose parsed url   query: null,
+119 verbose parsed url   pathname: '^3.0.0',
+119 verbose parsed url   path: '^3.0.0',
+119 verbose parsed url   href: '^3.0.0' }
+120 verbose addNamed [ 'object-assign', '^3.0.0' ]
+121 verbose addNamed [ null, null ]
+122 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+123 verbose lock object-assign@^3.0.0 C:\Documents and Settings\Administrator\Application Data\npm-cache\2db6c36a-object-assign-3-0-0.lock
+124 verbose cache add [ 'on-finished@^2.3.0', null ]
+125 verbose cache add name=undefined spec="on-finished@^2.3.0" args=["on-finished@^2.3.0",null]
+126 verbose parsed url { protocol: null,
+126 verbose parsed url   slashes: null,
+126 verbose parsed url   auth: null,
+126 verbose parsed url   host: null,
+126 verbose parsed url   port: null,
+126 verbose parsed url   hostname: null,
+126 verbose parsed url   hash: null,
+126 verbose parsed url   search: null,
+126 verbose parsed url   query: null,
+126 verbose parsed url   pathname: 'on-finished@^2.3.0',
+126 verbose parsed url   path: 'on-finished@^2.3.0',
+126 verbose parsed url   href: 'on-finished@^2.3.0' }
+127 verbose cache add name="on-finished" spec="^2.3.0" args=["on-finished","^2.3.0"]
+128 verbose parsed url { protocol: null,
+128 verbose parsed url   slashes: null,
+128 verbose parsed url   auth: null,
+128 verbose parsed url   host: null,
+128 verbose parsed url   port: null,
+128 verbose parsed url   hostname: null,
+128 verbose parsed url   hash: null,
+128 verbose parsed url   search: null,
+128 verbose parsed url   query: null,
+128 verbose parsed url   pathname: '^2.3.0',
+128 verbose parsed url   path: '^2.3.0',
+128 verbose parsed url   href: '^2.3.0' }
+129 verbose addNamed [ 'on-finished', '^2.3.0' ]
+130 verbose addNamed [ null, null ]
+131 silly lockFile 4f8b0735-on-finished-2-3-0 on-finished@^2.3.0
+132 verbose lock on-finished@^2.3.0 C:\Documents and Settings\Administrator\Application Data\npm-cache\4f8b0735-on-finished-2-3-0.lock
+133 verbose cache add [ 'type-is@^1.6.4', null ]
+134 verbose cache add name=undefined spec="type-is@^1.6.4" args=["type-is@^1.6.4",null]
+135 verbose parsed url { protocol: null,
+135 verbose parsed url   slashes: null,
+135 verbose parsed url   auth: null,
+135 verbose parsed url   host: null,
+135 verbose parsed url   port: null,
+135 verbose parsed url   hostname: null,
+135 verbose parsed url   hash: null,
+135 verbose parsed url   search: null,
+135 verbose parsed url   query: null,
+135 verbose parsed url   pathname: 'type-is@^1.6.4',
+135 verbose parsed url   path: 'type-is@^1.6.4',
+135 verbose parsed url   href: 'type-is@^1.6.4' }
+136 verbose cache add name="type-is" spec="^1.6.4" args=["type-is","^1.6.4"]
+137 verbose parsed url { protocol: null,
+137 verbose parsed url   slashes: null,
+137 verbose parsed url   auth: null,
+137 verbose parsed url   host: null,
+137 verbose parsed url   port: null,
+137 verbose parsed url   hostname: null,
+137 verbose parsed url   hash: null,
+137 verbose parsed url   search: null,
+137 verbose parsed url   query: null,
+137 verbose parsed url   pathname: '^1.6.4',
+137 verbose parsed url   path: '^1.6.4',
+137 verbose parsed url   href: '^1.6.4' }
+138 verbose addNamed [ 'type-is', '^1.6.4' ]
+139 verbose addNamed [ null, null ]
+140 silly lockFile b314cdf7-type-is-1-6-4 type-is@^1.6.4
+141 verbose lock type-is@^1.6.4 C:\Documents and Settings\Administrator\Application Data\npm-cache\b314cdf7-type-is-1-6-4.lock
+142 verbose cache add [ 'xtend@^4.0.0', null ]
+143 verbose cache add name=undefined spec="xtend@^4.0.0" args=["xtend@^4.0.0",null]
+144 verbose parsed url { protocol: null,
+144 verbose parsed url   slashes: null,
+144 verbose parsed url   auth: null,
+144 verbose parsed url   host: null,
+144 verbose parsed url   port: null,
+144 verbose parsed url   hostname: null,
+144 verbose parsed url   hash: null,
+144 verbose parsed url   search: null,
+144 verbose parsed url   query: null,
+144 verbose parsed url   pathname: 'xtend@^4.0.0',
+144 verbose parsed url   path: 'xtend@^4.0.0',
+144 verbose parsed url   href: 'xtend@^4.0.0' }
+145 verbose cache add name="xtend" spec="^4.0.0" args=["xtend","^4.0.0"]
+146 verbose parsed url { protocol: null,
+146 verbose parsed url   slashes: null,
+146 verbose parsed url   auth: null,
+146 verbose parsed url   host: null,
+146 verbose parsed url   port: null,
+146 verbose parsed url   hostname: null,
+146 verbose parsed url   hash: null,
+146 verbose parsed url   search: null,
+146 verbose parsed url   query: null,
+146 verbose parsed url   pathname: '^4.0.0',
+146 verbose parsed url   path: '^4.0.0',
+146 verbose parsed url   href: '^4.0.0' }
+147 verbose addNamed [ 'xtend', '^4.0.0' ]
+148 verbose addNamed [ null, null ]
+149 silly lockFile 409d9c3a-xtend-4-0-0 xtend@^4.0.0
+150 verbose lock xtend@^4.0.0 C:\Documents and Settings\Administrator\Application Data\npm-cache\409d9c3a-xtend-4-0-0.lock
+151 info addNameTag [ 'append-field', '^0.1.0' ]
+152 info addNameTag [ 'concat-stream', '^1.5.0' ]
+153 info addNameTag [ 'mkdirp', '^0.5.1' ]
+154 info addNameTag [ 'object-assign', '^3.0.0' ]
+155 info addNameTag [ 'on-finished', '^2.3.0' ]
+156 info addNameTag [ 'type-is', '^1.6.4' ]
+157 info addNameTag [ 'xtend', '^4.0.0' ]
+158 verbose url raw append-field
+159 verbose url resolving [ 'https://registry.npmjs.org/', './append-field' ]
+160 verbose url resolved https://registry.npmjs.org/append-field
+161 info trying registry request attempt 1 at 11:08:03
+162 verbose etag "2AGYX9N53EUMOLBD0FKTG5BU0"
+163 http GET https://registry.npmjs.org/append-field
+164 verbose url raw concat-stream
+165 verbose url resolving [ 'https://registry.npmjs.org/', './concat-stream' ]
+166 verbose url resolved https://registry.npmjs.org/concat-stream
+167 info trying registry request attempt 1 at 11:08:03
+168 verbose etag "6J0L47T7SIW7MM3PBRGENEUOU"
+169 http GET https://registry.npmjs.org/concat-stream
+170 verbose url raw mkdirp
+171 verbose url resolving [ 'https://registry.npmjs.org/', './mkdirp' ]
+172 verbose url resolved https://registry.npmjs.org/mkdirp
+173 info trying registry request attempt 1 at 11:08:03
+174 verbose etag "46JL0I4UXSLNH4QQY945E8M6O"
+175 http GET https://registry.npmjs.org/mkdirp
+176 verbose url raw object-assign
+177 verbose url resolving [ 'https://registry.npmjs.org/', './object-assign' ]
+178 verbose url resolved https://registry.npmjs.org/object-assign
+179 info trying registry request attempt 1 at 11:08:03
+180 verbose etag "306VXDXQ7C0F3IQRIK18GIP6D"
+181 http GET https://registry.npmjs.org/object-assign
+182 verbose url raw on-finished
+183 verbose url resolving [ 'https://registry.npmjs.org/', './on-finished' ]
+184 verbose url resolved https://registry.npmjs.org/on-finished
+185 info trying registry request attempt 1 at 11:08:03
+186 verbose etag "5HI975RQQ4ZMWO79KX96Q7Y6V"
+187 http GET https://registry.npmjs.org/on-finished
+188 verbose url raw type-is
+189 verbose url resolving [ 'https://registry.npmjs.org/', './type-is' ]
+190 verbose url resolved https://registry.npmjs.org/type-is
+191 info trying registry request attempt 1 at 11:08:03
+192 verbose etag "1N5BR0RSDU8FJK3SCFZQ9CVZY"
+193 http GET https://registry.npmjs.org/type-is
+194 verbose url raw xtend
+195 verbose url resolving [ 'https://registry.npmjs.org/', './xtend' ]
+196 verbose url resolved https://registry.npmjs.org/xtend
+197 info trying registry request attempt 1 at 11:08:03
+198 verbose etag "3HXBDBZR67U8J8DNRXC757SN"
+199 http GET https://registry.npmjs.org/xtend
+200 info addNameTag [ 'busboy', '^0.2.11' ]
+201 verbose url raw busboy
+202 verbose url resolving [ 'https://registry.npmjs.org/', './busboy' ]
+203 verbose url resolved https://registry.npmjs.org/busboy
+204 info trying registry request attempt 1 at 11:08:03
+205 verbose etag "8SH9UHPS5P3WPH84IK19T0KGM"
+206 http GET https://registry.npmjs.org/busboy
+207 http 304 https://registry.npmjs.org/object-assign
+208 silly registry.get cb [ 304,
+208 silly registry.get   { date: 'Fri, 13 May 2016 03:08:02 GMT',
+208 silly registry.get     via: '1.1 varnish',
+208 silly registry.get     'cache-control': 'max-age=300',
+208 silly registry.get     etag: '"306VXDXQ7C0F3IQRIK18GIP6D"',
+208 silly registry.get     age: '173',
+208 silly registry.get     connection: 'keep-alive',
+208 silly registry.get     'x-served-by': 'cache-atl6220-ATL',
+208 silly registry.get     'x-cache': 'HIT',
+208 silly registry.get     'x-cache-hits': '2',
+208 silly registry.get     'x-timer': 'S1463108882.720117,VS0,VE0',
+208 silly registry.get     vary: 'Accept-Encoding' } ]
+209 verbose etag object-assign from cache
+210 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+211 silly lockFile 2db6c36a-object-assign-3-0-0 object-assign@^3.0.0
+212 verbose about to build D:\lys\xiangmu\node_modules\multer
+213 info D:\lys\xiangmu\node_modules\multer unbuild
+214 info preuninstall multer@1.1.0
+215 info uninstall multer@1.1.0
+216 verbose true,D:\lys\xiangmu\node_modules,D:\lys\xiangmu\node_modules unbuild multer@1.1.0
+217 info postuninstall multer@1.1.0
+218 error Error: No compatible version found: object-assign@'^3.0.0'
+218 error Valid install targets:
+218 error ["0.1.0","0.1.1","0.1.2","0.2.0","0.2.1","0.2.2","0.3.0","0.3.1","0.4.0","1.0.0","2.0.0","3.0.0","2.1.1","4.0.0","4.0.1","4.1.0"]
+218 error     at installTargetsError (C:\Program Files\nodejs\node_modules\npm\lib\cache.js:719:10)
+218 error     at C:\Program Files\nodejs\node_modules\npm\lib\cache.js:638:10
+218 error     at saved (C:\Program Files\nodejs\node_modules\npm\node_modules\npm-registry-client\lib\get.js:142:7)
+218 error     at C:\Program Files\nodejs\node_modules\npm\node_modules\graceful-fs\polyfills.js:133:7
+218 error     at Object.oncomplete (fs.js:107:15)
+219 error If you need help, you may report this log at:
+219 error     <http://github.com/isaacs/npm/issues>
+219 error or email it to:
+219 error     <npm-@googlegroups.com>
+220 error System Windows_NT 5.1.2600
+221 error command "C:\\Program Files\\nodejs\\\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "--save" "multer"
+222 error cwd D:\lys\xiangmu
+223 error node -v v0.10.15
+224 error npm -v 1.3.5
+225 verbose exit [ 1, true ]

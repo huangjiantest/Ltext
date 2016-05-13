@@ -1,0 +1,57 @@
+[2016-05-10 17:15:34.109] [ERROR] logInfo - ReferenceError: D:\lys\xiangmu\views\adminIndex.html:41
+    39|             <ul class="list-group panel">
+    40|                 <li class="list-group-item"><i class="glyphicon glyphicon-align-justify"></i> <b>菜单栏</b></li>
+ >> 41|                 <% if(issupper==0){%>
+    42|                 	  <li class="list-group-item"><a href="#"><i class="glyphicon glyphicon-home"></i>管理员 </a></li>
+    43|                 <% } %>
+    44|                 <li class="list-group-item"><a href="#"><i class="glyphicon glyphicon-certificate"></i>分类管理 </a></li>
+
+issupper is not defined
+    at eval (eval at <anonymous> (D:\lys\xiangmu\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:13:11)
+    at returnedFn (D:\lys\xiangmu\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (D:\lys\xiangmu\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (D:\lys\xiangmu\node_modules\express\lib\view.js:126:8)
+    at tryRender (D:\lys\xiangmu\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (D:\lys\xiangmu\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (D:\lys\xiangmu\node_modules\express\lib\response.js:961:7)
+    at adminIndexControl.index (D:\lys\xiangmu\control\adminIndexControl.js:5:6)
+    at Layer.handle [as handle_request] (D:\lys\xiangmu\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\lys\xiangmu\node_modules\express\lib\router\route.js:131:13)
+[2016-05-10 17:15:41.625] [ERROR] logInfo - ReferenceError: D:\lys\xiangmu\views\adminIndex.html:41
+    39|             <ul class="list-group panel">
+    40|                 <li class="list-group-item"><i class="glyphicon glyphicon-align-justify"></i> <b>菜单栏</b></li>
+ >> 41|                 <% if(issupper==0){%>
+    42|                 	  <li class="list-group-item"><a href="#"><i class="glyphicon glyphicon-home"></i>管理员 </a></li>
+    43|                 <% } %>
+    44|                 <li class="list-group-item"><a href="#"><i class="glyphicon glyphicon-certificate"></i>分类管理 </a></li>
+
+issupper is not defined
+    at eval (eval at <anonymous> (D:\lys\xiangmu\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:13:11)
+    at returnedFn (D:\lys\xiangmu\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (D:\lys\xiangmu\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (D:\lys\xiangmu\node_modules\express\lib\view.js:126:8)
+    at tryRender (D:\lys\xiangmu\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (D:\lys\xiangmu\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (D:\lys\xiangmu\node_modules\express\lib\response.js:961:7)
+    at adminIndexControl.index (D:\lys\xiangmu\control\adminIndexControl.js:5:6)
+    at Layer.handle [as handle_request] (D:\lys\xiangmu\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\lys\xiangmu\node_modules\express\lib\router\route.js:131:13)
+[2016-05-10 17:15:54.473] [ERROR] logInfo - ReferenceError: D:\lys\xiangmu\views\adminIndex.html:41
+    39|             <ul class="list-group panel">
+    40|                 <li class="list-group-item"><i class="glyphicon glyphicon-align-justify"></i> <b>菜单栏</b></li>
+ >> 41|                 <% if(issupper==0){%>
+    42|                 	  <li class="list-group-item"><a href="#"><i class="glyphicon glyphicon-home"></i>管理员 </a></li>
+    43|                 <% } %>
+    44|                 <li class="list-group-item"><a href="#"><i class="glyphicon glyphicon-certificate"></i>分类管理 </a></li>
+
+issupper is not defined
+    at eval (eval at <anonymous> (D:\lys\xiangmu\node_modules\ejs\lib\ejs.js:485:12), <anonymous>:13:11)
+    at returnedFn (D:\lys\xiangmu\node_modules\ejs\lib\ejs.js:514:17)
+    at View.exports.renderFile [as engine] (D:\lys\xiangmu\node_modules\ejs\lib\ejs.js:358:31)
+    at View.render (D:\lys\xiangmu\node_modules\express\lib\view.js:126:8)
+    at tryRender (D:\lys\xiangmu\node_modules\express\lib\application.js:639:10)
+    at EventEmitter.render (D:\lys\xiangmu\node_modules\express\lib\application.js:591:3)
+    at ServerResponse.render (D:\lys\xiangmu\node_modules\express\lib\response.js:961:7)
+    at adminIndexControl.index (D:\lys\xiangmu\control\adminIndexControl.js:5:6)
+    at Layer.handle [as handle_request] (D:\lys\xiangmu\node_modules\express\lib\router\layer.js:95:5)
+    at next (D:\lys\xiangmu\node_modules\express\lib\router\route.js:131:13)
